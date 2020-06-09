@@ -31,6 +31,7 @@ while True:
             comptime = time.time()
             timetocompltet = (comptime - curtime)
             print(f"This operation has taken {timetocompltet} seconds")
+            time.sleep(99999)
             break
         firstIndex = 0
         secondIndex = 1
